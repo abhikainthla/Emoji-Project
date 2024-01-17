@@ -6,3 +6,81 @@
 body {
     font-family: Arial, sans-serif;
     }
+
+header {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    background-color: #14bf98;
+    color: white;
+}
+    
+h1{
+    margin: 10px;
+}
+
+hr{
+    color: white;
+    height: 3px;
+}
+
+#searchTerm {
+    height: 25px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 10px;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+
+}
+
+button{
+    outline: none;
+    background-color: #14bf98;
+    color: white;
+    margin-bottom: 1.25rem;
+    margin-right: 0.5rem;
+    outline: none;
+    background-color: #14bf98;
+    color: white;
+    margin-bottom: 1.25rem;
+    margin-right: 0.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font: 700 0.75rem/0 "Montserrat",sans-serif;
+    border-radius: 0.25rem;
+    display: inline-block;
+    border: 0.125rem solid #14bf98;
+    text-decoration: none;
+    transition: all 0.2s;
+
+    font: 700 0.75rem/0 "Montserrat",sans-serif;
+    border-radius: 0.25rem;
+    display: inline-block;
+    border: 0.125rem solid #14bf98;
+    text-decoration: none;
+    transition: all 0.2s;
+
+}
+
+button:hover{
+    background-color: transparent;
+    color: #14bf98;
+}
+
+table {
+    margin: 10px;
+}
+
+#table-info {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: normal;
+}
+
+.row {
+     outline: 1pt solid #14bf98;
+     padding:1rem 1.5rem 1rem 1.5rem;
+}
+
+.column {
+    padding:1rem 1.5rem 1rem 1.5rem;
+}
